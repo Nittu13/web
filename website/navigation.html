@@ -33,7 +33,7 @@
 	</style>
 </head>
 <body>
-
+<!-- navigation bar -->
 	<ul>
 		<li class="active"><a href="#">Home</a> </li>
 		<li><a href="#">About Us</a></li>
@@ -42,6 +42,80 @@
 		<li><a href="#">Contacts</a></li>
 		
 	</ul>
+
+	<!-- Table creation -->
+
+
+<table border="1px"; width="100%" cellpadding="20" ;>
+	<tr bgcolor="powderblue">
+	<th>1</th>
+	<th>2</th>
+	<th>3</th>
+	<th>4</th>
+	</tr>
+	<tr align="center">
+		<td colspan="2">entry1</td>
+		
+		<td>entry3</td>
+		<td rowspan="2">entry4</td>
+	</tr>
+	<tr align="center">
+		<td>entry1</td>
+		<td>entry2</td>
+		<td>entry3</td>
+		
+	</tr>
+
+
+</table>
+
+<!-- form-fomate -->
+<form>
+	<h3>First Name</h3><input type="text" name="f_name">
+	<h3>Last Name Name</h3><input type="text" name="l_name">
+
+
+	<!-- message box -->
+	<h3>Description</h3><textarea name="text-field" rows="4" cols="22"></textarea>
+	<br>
+
+<!-- checkbox -->
+
+	<input type="checkbox" name="car" value="car-1">car
+	<input type="checkbox" name="bike" value="bike-1">bike
+	<input type="checkbox" name="bus" value="bus-1">bus
+	<input type="checkbox" name="truck" value="truck-1">truck
+	<br>
+
+
+<!-- Radio buttons -->
+	<input type="radio" name="subjects" value="mathes">mathes
+	<input type="radio" name="subjects" value="physics">physics
+	<input type="radio" name="subjects" value="chemistry">physics
+	<input type="radio" name="subjects" value="biology">biology
+	<br>
+
+
+<!-- Dropdown list	 -->
+	<select name="dropdown">
+		<option value="indore" selected>indore</option>
+		<option value="indore">bhopal</option>
+		<option value="indore">bangluru</option>
+		<option value="indore">Kolkatta</option>
+		
+	</select><br>
+
+
+<!-- file upload	 -->
+	<input type="file" name="fileupload"><br>
+
+<!-- submit button	 -->
+	<button type="submit" name="submit" value="submit">submit</button>
+	<input type="reset" name="reset" value="reset">
+
+</form>
+
+
 
 </body>
 </html>
